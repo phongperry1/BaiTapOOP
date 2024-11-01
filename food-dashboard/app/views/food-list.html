@@ -125,15 +125,25 @@
                 <th>ID</th>
                 <th>Tên</th>
                 <th>Loại</th>
-                <th>Giá</th>
-                <th>Khuyến Mãi</th>
-                <th>Giá KM</th>
+                <th>Giá (VND)</th>
+                <th>Khuyến Mãi(%)</th>
+                <th>Giá KM(VND)</th>
                 <th>Tình Trạng</th>
                 <th></th>
               </tr>
             </thead>
             <tbody id="tbodyFood">
-             
+              <!-- <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr> -->
+              <!--  -->
             </tbody>
           </table>
         </div>
@@ -240,7 +250,7 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-warning" id="btnCapNhat">Cập Nhật</button>
-          <button type="button" class="btn btn-warning" id="btnThemMon">Thêm</button>
+          <button type="button" class="btn btn-warning" id="btnThemMon" data-dismiss="modal">Thêm</button>
         </div>
       </div>
     </div>
@@ -251,6 +261,8 @@
 
   
   <script type="module" src="../controllers/v2/main-v2.js"></script>
+
+  <script src="../../assets/js/foodlist.js"></script>
 </body>
 
 </html>
